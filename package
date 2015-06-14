@@ -1,0 +1,6 @@
+#!/bin/sh
+
+value=`cat built.txt`
+
+echo "I am a servant of the Secret Fire, wielder of the flame of Anor. You cannot pass. The dark fire will not avail you, flame of Udûn. Go back to the Shadow!\n" > package.txt
+echo $value >> package.txt
